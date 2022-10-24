@@ -1,18 +1,22 @@
 {
-	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+	"$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
 	"contentVersion": "1.0.0.0",
 	"parameters": {
 		"p_environment": {
-			"value": "dev"
+			"value": "dev",
+			"type": "string"
 		},
 		"p_site_prefix": {
-			"value": "githubci"
+			"value": "githubci",
+			"type": "string"
 		},
 		"p_site_web_name": {
-			"value": "web"
+			"value": "web",
+			"type": "string"
 		},
 		"p_comosdb_name":{
-			"value": "db"
+			"value": "db",
+			"type": "string"
 		}
 	}
 }
