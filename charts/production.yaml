@@ -1,5 +1,5 @@
 imageKey:
-    repository: contoso-air.azurecr.io/contoso-air
+    repository: contosoairacr.azurecr.io/contoso-air
     pullPolicy: IfNotPresent
     tag: latest
 service:
